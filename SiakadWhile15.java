@@ -19,6 +19,10 @@ public class SiakadWhile15 {
         
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("Hasil nilai mahasiswa ke-" + (i + 1) + " adalah A");
+                if (nilai > 80 && nilai <= 100) {
+                    System.out.println("Bagus, pertahankan nilainya!");
+                    
+                }
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("Hasil nilai mahasiswa ke-" + (i + 1) + " adalah B+");
             } else if (nilai > 65 && nilai <= 73) {
